@@ -1,0 +1,15 @@
+# Copy this file to config.yml and fill in your credentials.
+# Create an app at https://developer.spotify.com/dashboard and add the
+# redirect_uri below to the app's "Redirect URIs" list.
+spotify:
+  client_id: "your_client_id"
+  client_secret: "your_client_secret"
+  redirect_uri: "http://127.0.0.1:8888/callback"
+  # Where to cache the OAuth token (optional, defaults to .cache)
+  cache_path: ".cache"
+
+# Optional: per-song genres via Last.fm tags. Get a free key at
+# https://www.last.fm/api/account/create . If omitted, the tool falls back
+# to Spotify artist-level genres.
+lastfm:
+  api_key: "your_lastfm_api_key"

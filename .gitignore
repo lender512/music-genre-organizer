@@ -1,0 +1,10 @@
+# Secrets and OAuth token cache
+config.yml
+.cache
+
+# Output
+*.json
+
+# Python bytecode
+__pycache__/
+*.pyc
